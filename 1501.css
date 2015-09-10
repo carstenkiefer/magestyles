@@ -2481,6 +2481,9 @@ label {
   /* products grid */
 
 }
+.page a {
+  color: #4d4040 !important;
+}
 .page .header-language-background {
   background-color: #333333;
 }
