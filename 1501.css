@@ -3202,6 +3202,11 @@ body.customer-account .data-table td a {
   height: auto;
 }
 /* search box */
+#search {
+  padding-right: 40px !important;
+  width: auto !important;
+  margin-right: auto !important;
+}
 .cart .cart-totals table tfoot td {
   font-size: 14px !important;
 }
