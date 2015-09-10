@@ -2508,7 +2508,7 @@ label {
 .page #co-shipping-method-form .buttons-set .button,
 .page .footer .button {
   background: #695757 !important;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 .page .button:hover,
 .page .cart-table .product-cart-actions .button:hover,
@@ -2521,7 +2521,7 @@ label {
 .page #co-shipping-method-form .buttons-set .button:active,
 .page .footer .button:active {
   background: #231d1d !important;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 .page .button:focus,
 .page .cart-table .product-cart-actions .button:focus,
