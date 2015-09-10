@@ -2494,72 +2494,72 @@ label {
 }
 .page .block-account li strong,
 .page .block-cms-menu li strong {
-  color: #4d4040;
+  color: #4d4040 !important;
 }
 .page .block-account li a:hover,
 .page .block-cms-menu li a:hover {
-  color: #4d4040;
+  color: #4d4040 !important;
 }
 .page .button,
 .page .cart-table .product-cart-actions .button,
 .page #co-shipping-method-form .buttons-set .button,
 .page .footer .button {
-  background: #695757;
+  background: #695757 !important;
   color: #FFFFFF;
 }
 .page .button:hover,
 .page .cart-table .product-cart-actions .button:hover,
 .page #co-shipping-method-form .buttons-set .button:hover,
 .page .footer .button:hover {
-  background: #231d1d;
+  background: #231d1d !important;
 }
 .page .button:active,
 .page .cart-table .product-cart-actions .button:active,
 .page #co-shipping-method-form .buttons-set .button:active,
 .page .footer .button:active {
-  background: #231d1d;
+  background: #231d1d !important;
   color: #FFFFFF;
 }
 .page .button:focus,
 .page .cart-table .product-cart-actions .button:focus,
 .page #co-shipping-method-form .buttons-set .button:focus,
 .page .footer .button:focus {
-  background-color: #231d1d;
+  background-color: #231d1d !important;
   color: #FFFFFF;
 }
 .page .button2 span,
 .page .button2 span span {
-  color: #4d4040;
+  color: #4d4040 !important;
 }
 .page .button2 span:hover,
 .page .button2 span span:hover {
-  color: #151212;
+  color: #151212 !important;
 }
 .page .breadcrumbs a:hover {
-  color: #695757;
+  color: #695757 !important;
 }
 .page .btn-remove:hover,
 .page .btn-previous:hover {
-  background-color: #4d4040;
-  border-color: #4d4040;
+  background-color: #4d4040 !important;
+  border-color: #4d4040 !important;
 }
 .page .btn-remove:after {
-  color: #4d4040;
+  color: #4d4040 !important;
 }
 .page .btn-previous:after {
-  border-right: 4px solid #4d4040;
+  border-right: 4px solid #4d4040 !important;
 }
 .page .promo-msg {
-  color: #4d4040;
+  color: #4d4040 !important;
 }
 .page .price-box .price {
-  color: #4d4040;
+  color: #4d4040 !important;
 }
 .page .price-box .minimal-price-link {
-  color: #4d4040;
+  color: #4d4040 !important;
 }
 .page .price-box .special-price {
-  color: #4d4040;
+  color: #4d4040 !important;
 }
 .page .truncated .truncated_full_value .item-options {
   border: 1px solid #4d4040;
