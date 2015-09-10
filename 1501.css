@@ -2528,7 +2528,7 @@ label {
 .page #co-shipping-method-form .buttons-set .button:focus,
 .page .footer .button:focus {
   background-color: #231d1d !important;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 .page .button2 span,
 .page .button2 span span {
@@ -2642,7 +2642,7 @@ label {
 }
 .page .skip-cart .count {
   background: #312929;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 .page .skip-link.skip-active .count {
   color: white;
@@ -2699,11 +2699,11 @@ label {
   }
   .page .block-layered-nav .block-subtitle--filter {
     background-color: #4d4040;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
   }
   .page .block-layered-nav .block-subtitle--filter:hover {
     background-color: #000000;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
   }
 }
 .page .product-view .product-shop .product-name .h1,
@@ -2750,7 +2750,7 @@ label {
 .page .opc .section .step-title .number,
 .page .opc .section.allow.active .step-title .number,
 .page .no-touch .opc .section.allow:hover .step-title .number {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   background-color: #4d4040;
 }
 .page .opc .section.allow .step-title .number {
