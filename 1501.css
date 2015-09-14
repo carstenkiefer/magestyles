@@ -3230,6 +3230,10 @@ body.customer-account .data-table td a {
   background: black;
   color: white;
 }
+.category-products widget-products .product-name {
+  font-size: 16px;
+  font-weight: 900;
+}
 .category-products .tax-details {
   font-size: 80%;
 }
