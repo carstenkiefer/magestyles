@@ -3224,10 +3224,11 @@ body.customer-account .data-table td a {
 }
 .catalog-category-view .configurable-swatch-color .option-red .swatch-label {
   background: red;
+  color: white;
 }
 .catalog-category-view .configurable-swatch-color .option-black .swatch-label {
   background: black;
-  color: #ff0000;
+  color: white;
 }
 .category-products .tax-details {
   font-size: 80%;
