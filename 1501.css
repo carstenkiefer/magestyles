@@ -3222,11 +3222,11 @@ body.customer-account .data-table td a {
 .catalog-category-view .col-right .widget-new-products .widget-title {
   display: none;
 }
-.catalog-category-view .configurable-swatch-color .option-red .swatch-label {
+.catalog-category-view .configurable-swatch-color .option-rot .swatch-label {
   background: red;
   color: white;
 }
-.catalog-category-view .configurable-swatch-color .option-black .swatch-label {
+.catalog-category-view .configurable-swatch-color .option-schwarz .swatch-label {
   background: black;
   color: white;
 }
