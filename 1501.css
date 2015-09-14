@@ -3216,3 +3216,6 @@ body.customer-account .data-table td a {
 .crosssell h2 {
   font-size: 16px !important;
 }
+.catalog-category-view .main .category-image {
+  display: none;
+}
