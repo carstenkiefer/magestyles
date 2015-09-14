@@ -3222,6 +3222,13 @@ body.customer-account .data-table td a {
 .catalog-category-view .col-right .widget-new-products .widget-title {
   display: none;
 }
+.catalog-category-view .configurable-swatch-color .option-red .swatch-label {
+  background: red;
+}
+.catalog-category-view .configurable-swatch-color .option-black .swatch-label {
+  background: black;
+  color: #ff0000;
+}
 .category-products .tax-details {
   font-size: 80%;
 }
