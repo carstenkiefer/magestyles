@@ -3002,6 +3002,9 @@ label {
 .page .header-language-background {
   text-transform: none !important;
 }
+.page .header-language-background .header-language-container .welcome-msg {
+  margin: 4px 0px 6px 0px;
+}
 .page .page-header {
   border-bottom: 0 solid transparent;
   margin-left: auto;
