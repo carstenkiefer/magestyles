@@ -3211,7 +3211,7 @@ body.customer-account .data-table td a {
   font-size: 16px;
 }
 #notice-cookie-block .notice-text a {
-  color: white;
+  color: white !important;
 }
 #notice-cookie-block .actions {
   margin-top: 10px;
