@@ -3281,3 +3281,7 @@ body.customer-account .data-table td a {
   position: relative;
   padding-bottom: 95px;
 }
+.cms-page-view .std h2,
+.cms-no-route .std h2 {
+  color: #646464;
+}
