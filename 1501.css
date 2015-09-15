@@ -3170,6 +3170,9 @@ body.customer-account .data-table td a {
   clear: left;
 }
 /* global site notice */
+.demo-notice {
+  background: #3e3e3e;
+}
 .global-site-notice .notice-inner {
   /*background-image: url("/skin/frontend/cake/bdkshop/images/demo-logo.png") !important;*/
 
