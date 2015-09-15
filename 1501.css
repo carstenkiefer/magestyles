@@ -3206,9 +3206,9 @@ body.customer-account .data-table td a {
 }
 /* search box */
 #search {
-  padding-right: 40px !important;
-  width: auto !important;
+  width: 80% !important;
   margin-right: auto !important;
+  padding: 00px 0px 0px 5px !important;
 }
 .cart .cart-totals table tfoot td {
   font-size: 14px !important;
