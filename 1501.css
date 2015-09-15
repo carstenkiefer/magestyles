@@ -3210,6 +3210,9 @@ body.customer-account .data-table td a {
 #notice-cookie-block .notice-text {
   font-size: 16px;
 }
+#notice-cookie-block .notice-text a {
+  color: white;
+}
 #notice-cookie-block .actions {
   margin-top: 10px;
 }
