@@ -2812,6 +2812,9 @@ label {
   background: none;
   color: #646464;
 }
+.page .header-minicart {
+  z-index: 0;
+}
 .page .header-minicart .block-subtitle {
   color: #cacaca;
 }
