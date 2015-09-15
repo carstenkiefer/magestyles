@@ -2484,9 +2484,6 @@ label {
 .page a {
   color: #4d4040 !important;
 }
-.page .header-language-background {
-  background-color: #333333;
-}
 .page button.button,
 .page a.button {
   background-color: #222244;
@@ -2618,7 +2615,7 @@ label {
   border: 1px solid #4d4040;
 }
 .page .header-language-background {
-  background-color: #4d4040;
+  background-color: #d8262d;
 }
 @media only screen and (max-width: 767px) {
   .page .nav-primary li.menu-active > a,
