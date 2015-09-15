@@ -3286,3 +3286,6 @@ body.customer-account .data-table td a {
   color: #646464;
   text-transform: none;
 }
+.widget-random-products h2 {
+  text-transform: none;
+}
