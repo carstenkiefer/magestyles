@@ -3284,4 +3284,5 @@ body.customer-account .data-table td a {
 .cms-page-view .std h2,
 .cms-no-route .std h2 {
   color: #646464;
+  text-transform: none;
 }
