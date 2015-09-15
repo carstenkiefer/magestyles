@@ -2815,6 +2815,9 @@ label {
 .page .header-minicart {
   z-index: 0;
 }
+.page .header-minicart .icon {
+  z-index: 0;
+}
 .page .header-minicart .block-subtitle {
   color: #cacaca;
 }
