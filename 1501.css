@@ -2830,6 +2830,11 @@ label {
 .page .header-minicart .subtotal .price {
   color: #646464;
 }
+@media only screen and (max-width: 479px) {
+  .page .header-minicart a.skip-cart {
+    z-index: 0;
+  }
+}
 .page .search-autocomplete ul {
   background-color: #FFFFFF;
   border: 1px solid #646464;
