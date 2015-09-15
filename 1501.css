@@ -2795,6 +2795,10 @@ label {
 .page .slideshow-next:hover:before {
   border-color: transparent transparent transparent #3e3e3e;
 }
+.page .slideshow-container {
+  border-color: #c5c5c5;
+  z-index: 0;
+}
 .page #wishlist-table .product-name a {
   color: #646464;
 }
@@ -3009,6 +3013,9 @@ label {
   border-bottom: 0 solid transparent;
   margin-left: auto;
   margin-right: auto;
+}
+.page .account-cart-wrapper {
+  z-index: 0;
 }
 .page .account-cart-wrapper .label {
   color: #333333 !important;
@@ -3255,4 +3262,8 @@ body.customer-account .data-table td a {
 .products-grid .shipping-cost-details a {
   font-size: 100%;
   font-size: 12px;
+}
+.products-grid .product-info {
+  position: relative;
+  padding-bottom: 95px;
 }
