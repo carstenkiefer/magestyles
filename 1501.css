@@ -2819,7 +2819,8 @@ label {
   z-index: 0;
 }
 .page .header-minicart .minicart-wrapper {
-  box-shadow: #7e7e7e 0px 0px 30px !important;
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25) !important;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25) !important;
 }
 .page .header-minicart .block-subtitle {
   color: #cacaca;
@@ -2835,7 +2836,7 @@ label {
 }
 @media only screen and (max-width: 479px) {
   .page .header-minicart a.skip-cart {
-    z-index: 0;
+    z-index: 1;
   }
 }
 .page .search-autocomplete ul {
