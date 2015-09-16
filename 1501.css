@@ -3255,14 +3255,6 @@ body.customer-account .data-table td a {
 .catalog-category-view .col-right .widget-new-products .widget-title {
   display: none;
 }
-.catalog-category-view .configurable-swatch-color .option-rot .swatch-label {
-  background: red;
-  color: white;
-}
-.catalog-category-view .configurable-swatch-color .option-schwarz .swatch-label {
-  background: black;
-  color: white;
-}
 .category-products .widget-products .product-name {
   font-size: 16px;
   font-weight: 900;
@@ -3297,4 +3289,49 @@ body.customer-account .data-table td a {
 }
 .widget-random-products h2 {
   text-transform: none;
+}
+.product-view .product-shop .product-name .h1 {
+  margin-top: 0px;
+}
+.product-img-box {
+  text-transform: none;
+}
+.configurable-swatch-color .swatch-link > .swatch-label,
+.configurable_swatch_color .swatch-link > .swatch-label {
+  display: none;
+}
+.configurable-swatch-color .option-rot .swatch-label,
+.configurable_swatch_color .option-rot .swatch-label,
+.configurable-swatch-color .option-rot .swatch-link,
+.configurable_swatch_color .option-rot .swatch-link {
+  background: red;
+  color: white;
+}
+.configurable-swatch-color .option-schwarz .swatch-label,
+.configurable_swatch_color .option-schwarz .swatch-label,
+.configurable-swatch-color .option-schwarz .swatch-link,
+.configurable_swatch_color .option-schwarz .swatch-link {
+  background: black;
+  color: white;
+}
+.configurable-swatch-color .option-weiss .swatch-label,
+.configurable_swatch_color .option-weiss .swatch-label,
+.configurable-swatch-color .option-weiss .swatch-link,
+.configurable_swatch_color .option-weiss .swatch-link {
+  background: white;
+  color: #303030;
+}
+.configurable-swatch-color .option-gruen .swatch-label,
+.configurable_swatch_color .option-gruen .swatch-label,
+.configurable-swatch-color .option-gruen .swatch-link,
+.configurable_swatch_color .option-gruen .swatch-link {
+  background: #28c85a;
+  color: black;
+}
+.configurable-swatch-color .option-blau .swatch-label,
+.configurable_swatch_color .option-blau .swatch-label,
+.configurable-swatch-color .option-blau .swatch-link,
+.configurable_swatch_color .option-blau .swatch-link {
+  background: darkblue;
+  color: white;
 }
