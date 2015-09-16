@@ -3026,7 +3026,7 @@ label {
   margin-right: auto;
 }
 .page .account-cart-wrapper {
-  z-index: 0;
+  z-index: 1;
 }
 .page .account-cart-wrapper .label {
   color: #333333 !important;
