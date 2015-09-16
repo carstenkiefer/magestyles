@@ -2489,7 +2489,9 @@ label {
   background-color: #222244;
 }
 .page .no-touch .product-image:hover,
-.page .category-products .item a:hover {
+.page .category-products .item a:hover,
+.page .product-image,
+.page .no-touch .product-img-box .product-image:not(.zoom-available):hover {
   border-color: #aa9999 !important;
 }
 .page .block-account li strong,
@@ -3293,7 +3295,8 @@ body.customer-account .data-table td a {
 .product-view .product-shop .product-name .h1 {
   margin-top: 0px;
 }
-.product-img-box h2 {
+.product-img-box h2,
+.box-collateral h2 {
   text-transform: none;
 }
 .products-grid .product-info {
