@@ -2490,9 +2490,11 @@ label {
 }
 .page .no-touch .product-image:hover,
 .page .category-products .item a:hover,
-.page .product-image,
 .page .no-touch .product-img-box .product-image:not(.zoom-available):hover {
   border-color: #aa9999 !important;
+}
+.page .product-image {
+  border-color: #ffffff;
 }
 .page .block-account li strong,
 .page .block-cms-menu li strong {
