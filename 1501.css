@@ -2818,6 +2818,9 @@ label {
 .page .header-minicart .icon {
   z-index: 0;
 }
+.page .header-minicart .minicart-wrapper {
+  box-shadow: #7e7e7e 0px 0px 30px !important;
+}
 .page .header-minicart .block-subtitle {
   color: #cacaca;
 }
