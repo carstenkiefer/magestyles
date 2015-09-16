@@ -3299,6 +3299,9 @@ body.customer-account .data-table td a {
 .products-grid .product-info {
   font-size: 12px;
 }
+.availability.out-of-stock span {
+  font-size: inherit;
+}
 .configurable-swatch-color .swatch-link > .swatch-label,
 #configurable_swatch_color .swatch-link > .swatch-label {
   display: none;
