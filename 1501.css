@@ -3222,8 +3222,10 @@ body.customer-account .data-table td a {
 #notice-cookie-block .notice-text {
   font-size: 16px;
 }
-#notice-cookie-block .notice-text a {
+#notice-cookie-block .notice-text a,
+#notice-cookie-block .notice-text a span {
   color: white !important;
+  background: inherit;
 }
 #notice-cookie-block .actions {
   margin-top: 10px;
