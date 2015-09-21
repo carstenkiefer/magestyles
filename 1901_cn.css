@@ -1,0 +1,6 @@
+/* colors */
+#background-table table:first-child td:first-child {
+  border-top: 30px solid #d8262d;
+  background-color: #fff;
+  padding-top: 0px;
+}
