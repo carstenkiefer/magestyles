@@ -154,6 +154,6 @@ table.google-plus:hover td {
   border-top: 30px solid #d8262d;
 }
 #background-table table:first-child td:first-child {
-  background-color: white;
+  background-color: #fff;
   padding-top: 0px;
 }
