@@ -150,10 +150,8 @@ table.google-plus:hover td {
   color: #646464 !important;
   text-decoration: none !important;
 }
-#background-table table:first-child {
-  border-top: 30px solid #d8262d;
-}
 #background-table table:first-child td:first-child {
+  border-top: 30px solid #d8262d;
   background-color: #fff;
   padding-top: 0px;
 }
