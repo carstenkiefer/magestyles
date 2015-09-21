@@ -641,10 +641,8 @@ p.sku {
 .price-box .price-including-tax {
   display: block;
 }
-#background-table table:first-child {
-  border-top: 30px solid #d8262d;
-}
 #background-table table:first-child td:first-child {
-  background-color: white;
+  border-top: 30px solid #d8262d;
+  background-color: #fff;
   padding-top: 0px;
 }
