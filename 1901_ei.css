@@ -22,6 +22,7 @@
  * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
+/* colors */
 /* ============================================ *
  * General Styles
  * ============================================ */
@@ -153,7 +154,7 @@ td.store-info p {
 }
 td.store-info a {
   text-decoration: underline;
-  color: #3696c2;
+  color: #646464;
 }
 /* ============================================ *
  * Content - Styles
@@ -204,7 +205,7 @@ td.order-details p {
 .product-info a.product-name {
   font-weight: 700;
   text-transform: uppercase;
-  color: #3696c2;
+  color: #646464;
   text-decoration: none;
   vertical-align: middle;
   float: left;
@@ -363,7 +364,7 @@ td.order-details p {
   text-align: center;
 }
 .action-button td {
-  background-color: #3696c2;
+  background-color: #646464;
   color: #FFF;
   width: 100%;
   height: 40px;
@@ -470,7 +471,7 @@ table.social-button td {
   margin: 5px 3%;
 }
 table.button td {
-  background: #3696c2;
+  background: #646464;
 }
 table.social-button td {
   padding: 5px 4%;
@@ -498,7 +499,7 @@ table.social-button td a {
   margin: 15px 10px;
 }
 .panel a {
-  color: #3696c2;
+  color: #646464;
   text-decoration: none;
 }
 .sidebar-links table {
@@ -585,21 +586,21 @@ p.sku {
   color: #a0a0a0;
 }
 .price-box .price {
-  color: #3399cc;
+  color: #646464;
   font-size: 16px;
 }
 .price-box .price,
 .price {
-  font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 .price-box .price-label {
   color: #a0a0a0;
   white-space: nowrap;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 .price-box .minimal-price-link {
   padding-left: 1em;
-  color: #3399cc;
+  color: #646464;
   display: block;
   /* We want this to show on its own line, otherwise the layout looks funky */
 
@@ -627,7 +628,7 @@ p.sku {
   text-decoration: line-through;
 }
 .price-box .special-price {
-  color: #3399cc;
+  color: #646464;
   padding-left: 1em;
 }
 .price-box .special-price .price-label {
@@ -639,4 +640,11 @@ p.sku {
 .price-box .price-excluding-tax,
 .price-box .price-including-tax {
   display: block;
+}
+#background-table table:first-child {
+  border-top: 30px solid #d8262d;
+}
+#background-table table:first-child td:first-child {
+  background-color: white;
+  padding-top: 0px;
 }
