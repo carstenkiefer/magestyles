@@ -2098,15 +2098,13 @@ a:visited {
 }
 .email-heading {
   background-color: #fff;
-}
-.logo-container {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 1200px) {
-  .logo-container {
+  .email-heading {
     float: left;
     width: 66.66666666666666%;
   }
