@@ -1578,16 +1578,33 @@ a:visited {
   color: #cc0000;
 }
 .container-table {
-  border-top: 30px solid #d8262d;
-  padding-top: 30px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  border-top: 30px solid #d8262d;
+  padding-top: 30px;
+  display: block;
+}
+@media (min-width: 768px) {
+  .container-table {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container-table {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-table {
+    width: 1170px;
+  }
 }
 .email-heading {
   background-color: #fff;
-  padding-top: 30px;
+}
+.logo-container {
   margin-left: -15px;
   margin-right: -15px;
 }
