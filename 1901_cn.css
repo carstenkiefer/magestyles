@@ -1538,34 +1538,12 @@ h5 .small {
   }
 }
 .store-info {
-  position: relative;
   float: left;
   width: 83.33333333333334%;
+  position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-}
-@media (min-width: 1200px) {
-  .store-info {
-    float: left;
-    width: 25%;
-  }
-}
-@media (min-width: 1200px) {
-  .store-info {
-    margin-left: 8.333333333333332%;
-  }
-}
-@media (min-width: 992px) {
-  .store-info {
-    float: left;
-    width: 25%;
-  }
-}
-@media (min-width: 992px) {
-  .store-info {
-    margin-left: 8.333333333333332%;
-  }
 }
 @media (min-width: 768px) {
   .store-info {
@@ -1574,6 +1552,28 @@ h5 .small {
   }
 }
 @media (min-width: 768px) {
+  .store-info {
+    margin-left: 8.333333333333332%;
+  }
+}
+@media (min-width: 992px) {
+  .store-info {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  .store-info {
+    margin-left: 8.333333333333332%;
+  }
+}
+@media (min-width: 1200px) {
+  .store-info {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
   .store-info {
     margin-left: 8.333333333333332%;
   }
