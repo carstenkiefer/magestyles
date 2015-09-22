@@ -1427,11 +1427,16 @@ table {
 table td {
   display: block;
 }
+table tr {
+  margin-left: -15px;
+  margin-right: -15px;
+}
 #background-table {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: table;
 }
 a,
 a:hover,
