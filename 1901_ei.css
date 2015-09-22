@@ -2194,6 +2194,9 @@ h5 .small {
     width: 50%;
   }
 }
+.logo-container {
+  padding-top: 30px;
+}
 .store-info {
   position: relative;
   min-height: 1px;
@@ -2292,5 +2295,11 @@ h5 .small {
 }
 .separator {
   border-bottom: 2px solid #d8262d;
+}
+.closing-text {
+  float: right;
+  padding-right: 25%;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 /* The End *//* The End */
