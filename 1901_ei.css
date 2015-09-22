@@ -2122,7 +2122,7 @@ a:visited {
 @media (min-width: 1200px) {
   .email-heading {
     float: left;
-    width: 41.66666666666667%;
+    width: 50%;
   }
 }
 .store-info {
