@@ -1726,34 +1726,21 @@ h5 .small {
 .items {
   width: 100%;
 }
+.items tr td {
+  display: table-cell;
+  vertical-align: top;
+}
 .items tr .product-info {
-  position: relative;
-  float: left;
-  width: 50%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 60%;
+  text-align: left;
 }
 .items tr .align-center {
-  position: relative;
-  float: left;
-  width: 25%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 20%;
   text-align: center;
 }
 .items tr .align-right {
-  position: relative;
-  float: left;
-  width: 25%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 20%;
   text-align: right;
-}
-.items tr td {
-  display: table-cell;
 }
 .table-totals {
   margin-left: -15px;
