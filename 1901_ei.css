@@ -2319,6 +2319,50 @@ h5 .small {
 .widerruf h2 .small {
   font-size: 65%;
 }
+.widerrufsformular h2 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+.widerrufsformular h2 small,
+.widerrufsformular h2 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+.widerrufsformular h2 small,
+.widerrufsformular h2 .small {
+  font-size: 65%;
+}
+.agb h2 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+.agb h2 small,
+.agb h2 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+.agb h2 small,
+.agb h2 .small {
+  font-size: 65%;
+}
 .closing-text {
   float: right;
   padding-right: 25%;
