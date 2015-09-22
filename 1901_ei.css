@@ -641,6 +641,24 @@ p.sku {
 .price-box .price-including-tax {
   display: block;
 }
+body,
+span,
+div,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+td,
+* {
+  font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif;
+}
 .container-table {
   border-top: 30px solid #d8262d;
   padding-top: 30px;
