@@ -2299,6 +2299,7 @@ h5 .small {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  display: table-cell;
 }
 @media (min-width: 1200px) {
   .table-totals tr td {
