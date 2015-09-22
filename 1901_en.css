@@ -1663,24 +1663,10 @@ h5 .small {
 }
 .email-heading {
   background-color: #fff;
-  float: left;
-  width: 83.33333333333334%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .email-heading {
-    float: left;
-    width: 41.66666666666667%;
-  }
-}
-@media (min-width: 992px) {
-  .email-heading {
-    float: left;
-    width: 50%;
-  }
 }
 @media (min-width: 1200px) {
   .email-heading {
@@ -1689,30 +1675,12 @@ h5 .small {
   }
 }
 .store-info {
-  float: left;
-  width: 83.33333333333334%;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
-  .store-info {
-    margin-left: 8.333333333333332%;
-  }
-}
-@media (min-width: 768px) {
-  .store-info {
-    float: left;
-    width: 33.33333333333333%;
-  }
-}
-@media (min-width: 992px) {
-  .store-info {
-    margin-left: 8.333333333333332%;
-  }
-}
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .store-info {
     float: left;
     width: 25%;
@@ -1721,12 +1689,6 @@ h5 .small {
 @media (min-width: 1200px) {
   .store-info {
     margin-left: 8.333333333333332%;
-  }
-}
-@media (min-width: 1200px) {
-  .store-info {
-    float: left;
-    width: 25%;
   }
 }
 .separator {
