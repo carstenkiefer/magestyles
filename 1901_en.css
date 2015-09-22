@@ -1576,10 +1576,7 @@ table {
   display: block;
 }
 table td {
-  display: inline-block;
-}
-table td table {
-  display: inline-block;
+  display: block;
 }
 #background-table {
   margin-right: auto;
