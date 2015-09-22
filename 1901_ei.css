@@ -2092,12 +2092,36 @@ a:visited {
     width: 1170px;
   }
 }
+.email-info-head {
+  margin-left: -15px;
+  margin-right: -15px;
+}
 .email-heading {
   background-color: #fff;
 }
 .logo-container {
-  margin-left: -15px;
-  margin-right: -15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 1200px) {
+  .logo-container {
+    float: left;
+    width: 66.66666666666666%;
+  }
+}
+.store-info {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 1200px) {
+  .store-info {
+    float: left;
+    width: 33.33333333333333%;
+  }
 }
 .separator {
   border-bottom: 2px solid #d8262d;
