@@ -1661,8 +1661,33 @@ h5 .small {
     margin-left: 66.66666666666666%;
   }
 }
+.imprint {
+  padding-top: 30px;
+}
 .separator {
   border-bottom: 2px solid #d8262d;
+}
+.widerruf h2 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+.widerruf h2 small,
+.widerruf h2 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+.widerruf h2 small,
+.widerruf h2 .small {
+  font-size: 65%;
 }
 .closing-text {
   float: right;
