@@ -150,8 +150,10 @@ table.google-plus:hover td {
   color: #646464 !important;
   text-decoration: none !important;
 }
-.email-heading {
+.top-content {
   border-top: 30px solid #d8262d;
+}
+.email-heading {
   background-color: #fff;
   padding-top: 0px;
 }
