@@ -1726,19 +1726,19 @@ h5 .small {
 .order-information .items {
   width: 100%;
 }
-.order-information .items tr .product-info {
-  width: 50%;
+.order-information .items .product-info {
+  width: 50% !important;
   text-align: left;
 }
-.order-information .items tr .align-center {
-  width: 25%;
+.order-information .items .align-center {
+  width: 25% !important;
   text-align: center;
 }
-.order-information .items tr .align-right {
-  width: 25%;
+.order-information .items .align-right {
+  width: 25% !important;
   text-align: right;
 }
-.order-information .items tr td {
+.order-information .items td {
   display: table-cell;
 }
 .table-totals {
