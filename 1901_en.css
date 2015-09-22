@@ -44,22 +44,8 @@
   }
 }
 @media screen and (max-width: 600px) {
-  body {
-    width: 94% !important;
-    padding: 0 3% !important;
-    display: block !important;
-  }
   .container-table {
     width: 100% !important;
-    max-width: 600px;
-    min-width: 300px;
-  }
-  td.store-info h4 {
-    margin-top: 8px !important;
-    margin-bottom: 0px !important;
-  }
-  td.store-info p {
-    margin: 5px 0 !important;
   }
   .wrapper {
     width: 100% !important;
@@ -74,11 +60,6 @@
 @media screen and (max-width: 450px) {
   .email-heading,
   .store-info {
-    float: left;
-    width: 98% !important;
-    display: block;
-    text-align: center;
-    padding: 10px 1% !important;
     border-right: 0px !important;
   }
   .address-details,
