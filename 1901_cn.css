@@ -1615,7 +1615,7 @@ h5 .small {
 .order-details h3 .small {
   font-size: 65%;
 }
-.order-information .items tr {
+.order-information .items {
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -1655,9 +1655,11 @@ h5 .small {
     width: 25%;
   }
 }
-.table-totals tr {
+.table-totals {
   margin-left: -15px;
   margin-right: -15px;
+}
+.table-totals tr {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
