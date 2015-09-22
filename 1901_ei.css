@@ -2073,16 +2073,6 @@ td,
 * {
   font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
-table {
-  display: block;
-}
-table td {
-  display: block;
-}
-table tr {
-  margin-left: -15px;
-  margin-right: -15px;
-}
 #background-table {
   margin-right: auto;
   margin-left: auto;
@@ -2159,6 +2149,16 @@ h5 .small {
   }
 }
 .email-info-head {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.email-info-head table {
+  display: block;
+}
+.email-info-head table td {
+  display: block;
+}
+.email-info-head table tr {
   margin-left: -15px;
   margin-right: -15px;
 }
