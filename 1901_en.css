@@ -1572,6 +1572,12 @@ td,
 * {
   font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
+#background-table {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 a,
 a:hover,
 a:visited {
