@@ -1615,22 +1615,36 @@ h5 .small {
 .order-details h3 .small {
   font-size: 65%;
 }
-.order-information .items {
+.items {
   width: 100%;
 }
-.order-information .items .product-info {
-  width: 50% !important;
-  text-align: left;
+.items tr .product-info {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.order-information .items .align-center {
-  width: 25% !important;
+.items tr .align-center {
+  position: relative;
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
 }
-.order-information .items .align-right {
-  width: 25% !important;
+.items tr .align-right {
+  position: relative;
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: right;
 }
-.order-information .items td {
+.items tr td {
   display: table-cell;
 }
 .table-totals {
