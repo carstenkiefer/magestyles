@@ -1748,8 +1748,12 @@ h5 .small {
   font-size: 65%;
 }
 .order-information .items {
+  display: table;
   margin-left: -15px;
   margin-right: -15px;
+}
+.order-information .items tr td {
+  display: table-cell;
 }
 .order-information .items tr .product-info {
   position: relative;
@@ -1788,23 +1792,25 @@ h5 .small {
   }
 }
 .table-totals {
+  display: table;
   margin-left: -15px;
   margin-right: -15px;
 }
-.table-totals tr {
+.table-totals tr td {
+  display: table-cell;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 1200px) {
-  .table-totals tr {
+  .table-totals tr td {
     float: left;
     width: 33.33333333333333%;
   }
 }
 @media (min-width: 1200px) {
-  .table-totals tr {
+  .table-totals tr td {
     margin-left: 66.66666666666666%;
   }
 }
