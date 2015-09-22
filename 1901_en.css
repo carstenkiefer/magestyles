@@ -1580,10 +1580,16 @@ a:visited {
 .container-table {
   border-top: 30px solid #d8262d;
   padding-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .email-heading {
   background-color: #fff;
   padding-top: 0px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .separator {
   border-bottom: 2px solid #d8262d;
