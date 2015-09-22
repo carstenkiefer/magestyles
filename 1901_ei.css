@@ -2134,12 +2134,12 @@ a:visited {
 @media (min-width: 1200px) {
   .store-info {
     float: left;
-    width: 33.33333333333333%;
+    width: 25%;
   }
 }
 @media (min-width: 1200px) {
   .store-info {
-    margin-left: 16.666666666666664%;
+    margin-left: 8.333333333333332%;
   }
 }
 .separator {
