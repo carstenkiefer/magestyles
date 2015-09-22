@@ -2063,6 +2063,15 @@ td,
 * {
   font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
+table {
+  display: block;
+}
+table td {
+  display: inline-block;
+}
+table td table {
+  display: inline-block;
+}
 #background-table {
   margin-right: auto;
   margin-left: auto;
@@ -2081,7 +2090,6 @@ a:visited {
   padding-right: 15px;
   border-top: 30px solid #d8262d;
   padding-top: 30px;
-  display: block;
 }
 @media (min-width: 768px) {
   .container-table {
@@ -2099,8 +2107,8 @@ a:visited {
   }
 }
 .email-info-head {
-  margin-left: -6;
-  margin-right: -6;
+  margin-left: -8;
+  margin-right: -8;
 }
 .email-heading {
   background-color: #fff;
@@ -2125,6 +2133,11 @@ a:visited {
   .store-info {
     float: left;
     width: 33.33333333333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .store-info {
+    margin-left: 16.666666666666664%;
   }
 }
 .separator {
