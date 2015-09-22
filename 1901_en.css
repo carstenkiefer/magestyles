@@ -1661,6 +1661,25 @@ h5 .small {
   margin-left: -15px;
   margin-right: -15px;
 }
+.email-info-head h1 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.email-info-head h1 small,
+.email-info-head h1 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+.email-info-head h1 small,
+.email-info-head h1 .small {
+  font-size: 65%;
+}
 .email-heading {
   background-color: #fff;
   position: relative;
@@ -1690,6 +1709,28 @@ h5 .small {
   .store-info {
     margin-left: 8.333333333333332%;
   }
+}
+.order-details h3 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+.order-details h3 small,
+.order-details h3 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+.order-details h3 small,
+.order-details h3 .small {
+  font-size: 65%;
 }
 .separator {
   border-bottom: 2px solid #d8262d;
