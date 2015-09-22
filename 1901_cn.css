@@ -1443,6 +1443,46 @@ a:hover,
 a:visited {
   color: #cc0000;
 }
+h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #6c1316;
+}
+h6 small,
+h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+h6 small,
+h6 .small {
+  font-size: 75%;
+}
+h5 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+}
+h5 small,
+h5 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+h5 small,
+h5 .small {
+  font-size: 75%;
+}
 .container-table {
   margin-right: auto;
   margin-left: auto;
@@ -1473,6 +1513,8 @@ a:visited {
 .email-heading {
   background-color: #fff;
   position: relative;
+  float: left;
+  width: 83.33333333333334%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -1483,8 +1525,22 @@ a:visited {
     width: 50%;
   }
 }
+@media (min-width: 992px) {
+  .email-heading {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .email-heading {
+    float: left;
+    width: 41.66666666666667%;
+  }
+}
 .store-info {
   position: relative;
+  float: left;
+  width: 83.33333333333334%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -1496,6 +1552,28 @@ a:visited {
   }
 }
 @media (min-width: 1200px) {
+  .store-info {
+    margin-left: 8.333333333333332%;
+  }
+}
+@media (min-width: 992px) {
+  .store-info {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  .store-info {
+    margin-left: 8.333333333333332%;
+  }
+}
+@media (min-width: 768px) {
+  .store-info {
+    float: left;
+    width: 33.33333333333333%;
+  }
+}
+@media (min-width: 768px) {
   .store-info {
     margin-left: 8.333333333333332%;
   }
