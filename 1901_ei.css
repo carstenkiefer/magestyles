@@ -2250,6 +2250,7 @@ h5 .small {
 }
 .items .cell-name {
   text-align: left;
+  font-weight: 700;
 }
 .items tr td {
   display: table-cell;
