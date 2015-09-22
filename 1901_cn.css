@@ -1618,6 +1618,9 @@ h5 .small {
 .items {
   width: 100%;
 }
+.items .cell-name {
+  text-align: left;
+}
 .items tr td {
   display: table-cell;
   vertical-align: top;

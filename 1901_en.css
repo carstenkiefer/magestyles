@@ -1726,6 +1726,9 @@ h5 .small {
 .items {
   width: 100%;
 }
+.items .cell-name {
+  text-align: left;
+}
 .items tr td {
   display: table-cell;
   vertical-align: top;
@@ -1768,4 +1771,6 @@ h5 .small {
 .separator {
   border-bottom: 2px solid #d8262d;
 }
-/* The End */
+/* The End */.items .cell-name:FIRST-CHILD {
+  text-align: left;
+}
