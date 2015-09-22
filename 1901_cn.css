@@ -1512,17 +1512,17 @@ h5 .small {
 }
 .email-heading {
   background-color: #fff;
-  position: relative;
   float: left;
   width: 83.33333333333334%;
+  position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .email-heading {
     float: left;
-    width: 50%;
+    width: 41.66666666666667%;
   }
 }
 @media (min-width: 992px) {
@@ -1531,10 +1531,10 @@ h5 .small {
     width: 50%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .email-heading {
     float: left;
-    width: 41.66666666666667%;
+    width: 50%;
   }
 }
 .store-info {
