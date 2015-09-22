@@ -659,6 +659,11 @@ td,
 * {
   font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
+a,
+a:hover,
+a:visited {
+  color: #cc0000;
+}
 .container-table {
   border-top: 30px solid #d8262d;
   padding-top: 30px;
