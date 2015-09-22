@@ -1,6 +1,7 @@
 /* colors */
 .container-table {
   border-top: 30px solid #d8262d;
+  padding-top: 30px;
 }
 .email-heading {
   background-color: #fff;
