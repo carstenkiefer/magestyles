@@ -23,24 +23,6 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 /* colors */
-/* ============================================ *
- * General Styles
- * ============================================ */
-body,
-table.body,
-th,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-td,
-p,
-strong {
-  font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif;
-  font-weight: normal;
-}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -1659,4 +1641,22 @@ h5 .small {
 }
 .separator {
   border-bottom: 2px solid #d8262d;
+}
+/* ============================================ *
+ * General Styles
+ * ============================================ */
+body,
+table.body,
+th,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td,
+p,
+strong {
+  font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-weight: normal;
 }
