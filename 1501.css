@@ -3103,7 +3103,7 @@ label {
   }
 }
 .catalog-product-view .block-related .mini-products-list li.item {
-  clear: none ;
+  clear: none;
   margin: auto;
   float: left;
   width: 100%;
@@ -3154,7 +3154,7 @@ label {
   }
 }
 .cms-index-index .widget-products-new .widget-new-products .product-info {
-  padding-bottom: 20px !important ;
+  padding-bottom: 20px !important;
   min-height: 80px !important;
 }
 .cms-index-index .widget-products-new .products-grid {
@@ -3310,7 +3310,7 @@ body.customer-account .data-table td a {
   font-size: inherit;
 }
 /* Glyphicons */
-.skip-link .glyphicon {
+.account-cart-wrapper .skip-link .icon {
   margin-left: inherit;
   margin-right: inherit;
   display: inherit;
@@ -3321,6 +3321,21 @@ body.customer-account .data-table td a {
   background-image: none;
   background-color: transparent;
   text-indent: initial;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.account-cart-wrapper .skip-cart .icon:before {
+  content: "\e116";
+}
+.account-cart-wrapper .skip-account .icon:before {
+  content: "\e008";
 }
 .configurable-swatch-color .swatch-link > .swatch-label,
 #configurable_swatch_color .swatch-link > .swatch-label {
