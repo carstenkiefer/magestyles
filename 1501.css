@@ -3313,7 +3313,7 @@ body.customer-account .data-table td a {
 .account-cart-wrapper .skip-link .icon {
   margin-left: inherit;
   margin-right: inherit;
-  display: initial;
+  display: initial !important;
   width: inherit;
   height: inherit;
   vertical-align: inherit;
