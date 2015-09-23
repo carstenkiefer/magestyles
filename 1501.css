@@ -3309,6 +3309,19 @@ body.customer-account .data-table td a {
 .availability.out-of-stock span {
   font-size: inherit;
 }
+/* Glyphicons */
+.skip-link .glyphicon {
+  margin-left: inherit;
+  margin-right: inherit;
+  display: inherit;
+  width: inherit;
+  height: inherit;
+  vertical-align: inherit;
+  background-position: initial;
+  background-image: none;
+  background-color: transparent;
+  text-indent: initial;
+}
 .configurable-swatch-color .swatch-link > .swatch-label,
 #configurable_swatch_color .swatch-link > .swatch-label {
   display: none;

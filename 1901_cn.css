@@ -1639,16 +1639,16 @@ h5 .small {
   text-align: right;
 }
 .table-totals {
+  display: table;
   margin-left: -15px;
   margin-right: -15px;
-  display: table;
 }
 .table-totals tr td {
+  display: table-cell;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  display: table-cell;
 }
 @media (min-width: 1200px) {
   .table-totals tr td {
