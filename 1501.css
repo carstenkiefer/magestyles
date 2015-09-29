@@ -3309,7 +3309,40 @@ body.customer-account .data-table td a {
 .availability.out-of-stock span {
   font-size: inherit;
 }
+.product-view a {
+  text-decoration: underline;
+}
 /* Glyphicons */
+.account-cart-wrapper .skip-link .icon {
+  margin-left: inherit;
+  margin-right: inherit;
+  display: initial !important;
+  width: inherit;
+  height: inherit;
+  vertical-align: inherit;
+  background-position: initial;
+  background-image: none;
+  background-color: transparent;
+  text-indent: initial;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.account-cart-wrapper .skip-cart .icon:before {
+  content: "\e116";
+}
+.account-cart-wrapper .skip-account .icon:before {
+  content: "\e008";
+}
+#customer-reviews h2 {
+  font-size: large;
+}
 .configurable-swatch-color .swatch-link > .swatch-label,
 #configurable_swatch_color .swatch-link > .swatch-label {
   display: none;
@@ -3348,4 +3381,9 @@ body.customer-account .data-table td a {
 #configurable_swatch_color .option-blau .swatch-link {
   background: darkblue;
   color: white;
+}
+.swatch-label,
+.swatch-link,
+.swatch-link * {
+  text-decoration: none;
 }
