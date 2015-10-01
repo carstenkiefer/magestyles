@@ -3382,6 +3382,7 @@ body.customer-account .data-table td a {
   background: darkblue;
   color: white;
 }
+.configurable-swatch-list a,
 .swatch-label,
 .swatch-link,
 .swatch-link * {
