@@ -3361,3 +3361,17 @@ body.customer-account .data-table td a {
 .swatch-link * {
   text-decoration: none;
 }
+#parcel_announcement_box {
+  clear: left;
+}
+#parcel_announcement_box:before {
+  content: "Die folgenden Optionen wirken sich nur auf Sendungen aus, die wir per DHL verschicken!" !important;
+  font-weight: 900;
+  display: block;
+  padding: 10px;
+  margin: 0px;
+  position: relative;
+}
+.sp-methods .form-list {
+  border: none;
+}
