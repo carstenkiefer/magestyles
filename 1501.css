@@ -3503,3 +3503,6 @@ body.customer-account .data-table td a {
 .sp-methods .form-list {
   border: none;
 }
+.darkred-text {
+  color: #d8262d;
+}
