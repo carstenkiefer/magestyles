@@ -3506,3 +3506,16 @@ body.customer-account .data-table td a {
 .darkred-text {
   color: #d8262d;
 }
+body.customer-account .my-account .title-buttons {
+  text-align: left;
+}
+body.customer-account .my-account .title-buttons span.separator,
+body.customer-account .my-account .title-buttons a {
+  top: -12px;
+}
+.material-icons {
+  font-size: inherit !important;
+}
+.nobreak {
+  white-space: nowrap;
+}
