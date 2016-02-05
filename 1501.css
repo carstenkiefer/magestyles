@@ -3806,6 +3806,10 @@ body.customer-account .data-table td a {
 .cms-no-route .std h1 {
   font-size: 24px;
 }
+.cms-page-view .std h3,
+.cms-no-route .std h3 {
+  font-size: 18px;
+}
 .cms-page-view .std p,
 .cms-no-route .std p,
 .cms-page-view .std li,
