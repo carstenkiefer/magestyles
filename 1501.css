@@ -3804,6 +3804,7 @@ body.customer-account .data-table td a {
 .cms-no-route .std p {
   font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif !important;
   font-variant: normal;
+  font-style: normal;
 }
 .widget-random-products h2 {
   text-transform: none;
