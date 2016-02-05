@@ -3801,7 +3801,9 @@ body.customer-account .data-table td a {
   text-transform: none;
 }
 .cms-page-view .std p,
-.cms-no-route .std p {
+.cms-no-route .std p,
+.cms-page-view .std li,
+.cms-no-route .std li {
   font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif !important;
   font-variant: normal;
   font-style: normal;
