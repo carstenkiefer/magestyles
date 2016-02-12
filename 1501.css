@@ -2991,6 +2991,9 @@ label {
 .page a {
   color: #646464 !important;
 }
+.page .welcome-msg a {
+  color: #d9d9d9;
+}
 .page button.button,
 .page a.button {
   background-color: #222244;
@@ -3798,7 +3801,9 @@ body.customer-account .data-table td a {
 .cms-page-view .std h1,
 .cms-no-route .std h1,
 .cms-page-view .std h2,
-.cms-no-route .std h2 {
+.cms-no-route .std h2,
+.cms-page-view .std h3,
+.cms-no-route .std h3 {
   color: #646464;
   text-transform: none;
 }
