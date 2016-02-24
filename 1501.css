@@ -3424,6 +3424,20 @@ label {
 .page .product-view .product-img-box .product-name h1 {
   color: #333333;
 }
+.page .product-view .product-options-bottom .price-box {
+  display: block;
+  float: left;
+}
+.page .product-view .product-options-bottom .baseprice-box {
+  clear: right;
+  float: right;
+}
+.page .product-view .product-options-bottom .add-to-cart {
+  clear: both;
+}
+.page .product-view .price-box .price {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .page .block-title strong span {
   color: #222244;
 }
@@ -3788,6 +3802,7 @@ body.customer-account .data-table td a {
 .products-grid .product-name a {
   font-size: 16px;
   font-weight: 700;
+  text-decoration: none;
 }
 .products-grid .shipping-cost-details,
 .products-grid .shipping-cost-details a {
