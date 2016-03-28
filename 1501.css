@@ -601,8 +601,8 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #fe423f;
+  border-color: #fe2926;
 }
 .btn-danger:hover,
 .btn-danger:focus,
@@ -611,8 +611,8 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #c9302c;
-  border-color: #ac2925;
+  background-color: #fe100c;
+  border-color: #e50501;
 }
 .btn-danger:active,
 .btn-danger.active,
@@ -637,11 +637,11 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #fe423f;
+  border-color: #fe2926;
 }
 .btn-danger .badge {
-  color: #d9534f;
+  color: #fe423f;
   background-color: #ffffff;
 }
 .btn-link {
@@ -4077,8 +4077,8 @@ body.customer-account .my-account .title-buttons a {
 .btn-default-bdk,
 .page .btn-default-bdk {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #fe423f;
+  border-color: #fe2926;
   color: white !important;
 }
 .btn-default-bdk:hover,
@@ -4094,8 +4094,8 @@ body.customer-account .my-account .title-buttons a {
 .open > .dropdown-toggle.btn-default-bdk,
 .open > .dropdown-toggle.page .btn-default-bdk {
   color: #ffffff;
-  background-color: #c9302c;
-  border-color: #ac2925;
+  background-color: #fe100c;
+  border-color: #e50501;
 }
 .btn-default-bdk:active,
 .page .btn-default-bdk:active,
@@ -4141,12 +4141,12 @@ fieldset[disabled] .page .btn-default-bdk:active,
 .page .btn-default-bdk[disabled].active,
 fieldset[disabled] .btn-default-bdk.active,
 fieldset[disabled] .page .btn-default-bdk.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #fe423f;
+  border-color: #fe2926;
 }
 .btn-default-bdk .badge,
 .page .btn-default-bdk .badge {
-  color: #d9534f;
+  color: #fe423f;
   background-color: #ffffff;
 }
 .text-info-bdk,
@@ -4220,4 +4220,8 @@ a.page .bg-info-bdk:hover {
     float: left;
     width: 33.33333333333333%;
   }
+}
+.icon-info {
+  vertical-align: middle;
+  font-size: large !important;
 }
