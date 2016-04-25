@@ -3990,8 +3990,12 @@ body.customer-account .data-table td a {
 }
 .configurable-swatch-color .option-charcoal .swatch-label,
 #configurable_swatch_color .option-charcoal .swatch-label,
+.configurable-swatch-color .option-dunkelanthrazit .swatch-label,
+#configurable_swatch_color .option-dunkelanthrazit .swatch-label,
 .configurable-swatch-color .option-charcoal .swatch-link,
-#configurable_swatch_color .option-charcoal .swatch-link {
+#configurable_swatch_color .option-charcoal .swatch-link,
+.configurable-swatch-color .option-dunkelanthrazit .swatch-link,
+#configurable_swatch_color .option-dunkelanthrazit .swatch-link {
   background: #303030;
   color: white;
 }
@@ -4020,7 +4024,7 @@ body.customer-account .data-table td a {
 #configurable_swatch_color .option-deep-navy .swatch-label,
 .configurable-swatch-color .option-deep-navy .swatch-link,
 #configurable_swatch_color .option-deep-navy .swatch-link {
-  background: navy;
+  background: #001e64;
   color: white;
 }
 .configurable-swatch-list a,
