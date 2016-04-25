@@ -3871,11 +3871,6 @@ body.customer-account .data-table td a {
   height: auto;
 }
 /* search box */
-#search {
-  width: 75% !important;
-  margin-right: auto !important;
-  padding: 0px 10px 0px 10px !important;
-}
 .cart .cart-totals table tfoot td {
   font-size: 14px !important;
 }
@@ -4021,6 +4016,13 @@ body.customer-account .data-table td a {
   background: darkblue;
   color: white;
 }
+.configurable-swatch-color .option-deep-navy .swatch-label,
+#configurable_swatch_color .option-deep-navy .swatch-label,
+.configurable-swatch-color .option-deep-navy .swatch-link,
+#configurable_swatch_color .option-deep-navy .swatch-link {
+  background: navy;
+  color: white;
+}
 .configurable-swatch-list a,
 .swatch-label,
 .swatch-link,
@@ -4053,6 +4055,16 @@ body.customer-account .my-account .title-buttons a {
 }
 .material-icons {
   font-size: inherit !important;
+}
+.notice-inner i.material-icons {
+  line-height: 24px !important;
+  vertical-align: middle;
+}
+.account-cart-wrapper i.material-icons,
+.skip-links i.material-icons {
+  font-size: 24px !important;
+  line-height: 48px !important;
+  vertical-align: middle;
 }
 .nobreak {
   white-space: nowrap;
@@ -4224,4 +4236,67 @@ a.page .bg-info-bdk:hover {
 .icon-info {
   vertical-align: middle;
   font-size: large !important;
+}
+#search_mini_form .search-button {
+  background: none !important;
+  position: absolute;
+  left: 0;
+  right: auto;
+}
+#search {
+  padding-right: 0px;
+  width: 100%;
+  text-indent: 40px;
+  position: relative;
+}
+.opc #opc-login * {
+  font-family: "Open Sans", "Helvetica Neue", Verdana, Arial, sans-serif !important;
+  font-style: normal !important;
+}
+.opc #opc-login .jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+}
+.opc #opc-login .jumbotron h1,
+.opc #opc-login .jumbotron .h1 {
+  color: inherit;
+}
+.opc #opc-login .jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.opc #opc-login .jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .opc #opc-login .jumbotron,
+.container-fluid .opc #opc-login .jumbotron {
+  border-radius: 6px;
+}
+.opc #opc-login .jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .opc #opc-login .jumbotron {
+    padding: 48px 0;
+  }
+  .container .opc #opc-login .jumbotron,
+  .container-fluid .opc #opc-login .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .opc #opc-login .jumbotron h1,
+  .opc #opc-login .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+.opc #opc-login ul.ul {
+  list-style: disc;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 48px 60px !important;
+  }
 }
